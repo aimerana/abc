@@ -1,0 +1,47 @@
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git init
+Initialized empty Git repository in C:/Users/web-01/Desktop/Git/.git/
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git config --global user.name "aimerana"
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git config --global user.email "yyx564926409@qq.com"
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git config --global user.name "aimerana"
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git add README.md
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git commit -m "first commit"
+[master (root-commit) e24de08] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git remote add origin https://github.com/aimerana/abc.git
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$ git push -u origin master
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': aimerana
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 269 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/aimerana/abc.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+web-01@web-01-PC MINGW64 ~/Desktop/Git (master)
+$
